@@ -1,3 +1,22 @@
 .about-text{
     color: rgb(233, 12, 141);
 }
+.about-text{
+    color: rgb(241, 99, 10);
+    font-size: 24px;
+}
+#navlist{
+    list-style: none;
+    display: flex;
+    gap: 23%;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+#button{
+    border-radius: 30px;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(94, 190, 94);
+    border: none;
+    color: white;
+}

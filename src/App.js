@@ -1,5 +1,6 @@
 import Login from "./Login"
 import Users from "./Users";
+import About from "./About"
 
 
 
@@ -7,6 +8,7 @@ import Users from "./Users";
 const App = () =>{
   return(
 <div>
+  <About/>
 <Login />
 <Users />
  
