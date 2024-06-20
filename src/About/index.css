@@ -5,7 +5,7 @@
     color: rgb(241, 99, 10);
     font-size: 24px;
 }
-#navlist{
+#navbar{
     list-style: none;
     display: flex;
     gap: 23%;
