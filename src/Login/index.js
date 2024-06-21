@@ -9,9 +9,6 @@ const [username, setUserName] = useState('');
 const [password, setPassword] = useState('');
 const [modalIsOPen, setModalIsOPen]=useState(false);
 
-console.log({username})
-console.log({password})
-
 
 const handleLogin = async(event) => {
     event.preventDefault();

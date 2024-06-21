@@ -3,7 +3,7 @@ import UserCard from "../Atoms/UserCard";
 import './index.css'
 
 
-const Users = (isLoggedIn)=> {
+const Users = ({isLoggedIn})=> {
     const { users, error, loading} = useGetUsers();
     console.log({users});
     return(
